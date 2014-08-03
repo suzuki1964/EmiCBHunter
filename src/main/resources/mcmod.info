@@ -1,0 +1,21 @@
+[
+        {
+        "modid": "Hunter",
+        "name": "Emi's Hunter Mod",
+        "description": "Adds poison arrow, camouflage armor, and foliage blocks.",
+        "version": "1.0",
+        "mcversion": "1.7.10",
+        "url": "",
+        "updateUrl": "",
+        "authorList": [
+        "ksuzuki"
+        ],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [
+        ],
+        "parent":"",
+        "dependencies": [
+        ]
+        }
+        ]
