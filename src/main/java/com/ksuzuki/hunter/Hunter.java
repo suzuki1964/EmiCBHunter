@@ -1,8 +1,9 @@
 package com.ksuzuki.hunter;
 
-import com.ksuzuki.hunter.configuration.ConfigurationHandler;
+import com.ksuzuki.hunter.handler.ConfigurationHandler;
 import com.ksuzuki.hunter.proxy.IProxy;
 import com.ksuzuki.hunter.reference.Reference;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -13,7 +14,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
  * Created by suzuki on 8/2/14.
  */
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 
 public class Hunter
 {
@@ -27,6 +28,7 @@ public class Hunter
     public void PreInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
     }
 
     @Mod.EventHandler
