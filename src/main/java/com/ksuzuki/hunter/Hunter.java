@@ -1,6 +1,7 @@
 package com.ksuzuki.hunter;
 
 import com.ksuzuki.hunter.handler.ConfigurationHandler;
+import com.ksuzuki.hunter.init.ModItems;
 import com.ksuzuki.hunter.proxy.IProxy;
 import com.ksuzuki.hunter.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -29,6 +30,7 @@ public class Hunter
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        ModItems.init();
     }
 
     @Mod.EventHandler
