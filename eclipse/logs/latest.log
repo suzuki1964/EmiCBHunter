@@ -1,25 +1,26 @@
-[00:55:09] [main/INFO]: Setting user: ForgeDevName
-[00:55:11] [Client thread/INFO]: LWJGL Version: 2.9.1
-[00:55:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Emi's Hunter Mod
-[00:55:20] [Sound Library Loader/INFO]: Sound engine started
-[00:55:21] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[00:55:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[00:55:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Emi's Hunter Mod
-[00:55:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[00:55:22] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[00:55:22] [Sound Library Loader/INFO]: Sound engine started
-[00:55:27] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[00:55:27] [Server thread/INFO]: Generating keypair
-[00:55:28] [Server thread/INFO]: Preparing start region for level 0
-[00:55:29] [Server thread/INFO]: Changing view distance to 12, from 10
-[00:55:29] [Server thread/INFO]: ForgeDevName[local:E:2d40d17c] logged in with entity id 289 at (-106.1006421907595, 70.0, 249.63221473904503)
-[00:55:29] [Server thread/INFO]: ForgeDevName joined the game
-[00:55:40] [Client thread/INFO]: Stopping!
-[00:55:40] [Server thread/INFO]: Stopping server
-[00:55:40] [Server thread/INFO]: Saving players
-[00:55:40] [Server thread/INFO]: Saving worlds
-[00:55:40] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
-[00:55:40] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
-[00:55:40] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
-[00:55:40] [Client Shutdown Thread/INFO]: Stopping server
-[00:55:40] [Client Shutdown Thread/INFO]: Saving players
+[12:03:51] [main/INFO]: Setting user: ForgeDevName
+[12:03:52] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:04:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Emi's Hunter Mod
+[12:04:04] [Sound Library Loader/INFO]: Sound engine started
+[12:04:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:04:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:04:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Emi's Hunter Mod
+[12:04:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:04:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:04:06] [Sound Library Loader/INFO]: Sound engine started
+[12:04:12] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:04:12] [Server thread/INFO]: Generating keypair
+[12:04:13] [Server thread/INFO]: Preparing start region for level 0
+[12:04:14] [Server thread/INFO]: Preparing spawn area: 56%
+[12:04:15] [Server thread/INFO]: Changing view distance to 12, from 10
+[12:04:15] [Server thread/INFO]: ForgeDevName[local:E:de7a1368] logged in with entity id 296 at (-106.1006421907595, 70.0, 249.63221473904503)
+[12:04:15] [Server thread/INFO]: ForgeDevName joined the game
+[12:04:50] [Client thread/INFO]: Stopping!
+[12:04:50] [Server thread/INFO]: Stopping server
+[12:04:50] [Server thread/INFO]: Saving players
+[12:04:50] [Server thread/INFO]: Saving worlds
+[12:04:50] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[12:04:50] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[12:04:50] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[12:04:51] [Client Shutdown Thread/INFO]: Stopping server
+[12:04:51] [Client Shutdown Thread/INFO]: Saving players

@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
  */
 public class CreativeTabH
 {
-    public static final CreativeTabs H_tab = new CreativeTabs(Reference.MOD_ID)
+    public static final CreativeTabs H_tab = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
@@ -18,10 +18,5 @@ public class CreativeTabH
             return ModItems.poisonArrow;
         }
 
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "Emi's Hunter Mod";
-        }
     };
 }
