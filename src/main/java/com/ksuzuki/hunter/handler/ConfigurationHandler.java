@@ -16,6 +16,8 @@ public class ConfigurationHandler
 
     public static Configuration configuration;
     public static int potionValue = 19;
+    public static int effectDuration = 900;
+    public static int effectAmplifier = 1;
 
 
     public static void init(File configFile)
@@ -42,7 +44,10 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        potionValue = configuration.getInt("potionValue", Configuration.CATEGORY_GENERAL, 19, 1, 20, "This changes the potion effect.");
+
+        potionValue = configuration.getInt("potionValue", Configuration.CATEGORY_GENERAL, 19, 1, 23, "This changes the potion effect.");
+        effectDuration = configuration.getInt("effectDuration", Configuration.CATEGORY_GENERAL, 900, 1, 25000, "This gives the duration in ticks, 20 per second.");
+        effectAmplifier = configuration.getInt("effectAmplifier", Configuration.CATEGORY_GENERAL, 1, 1, 255, "This gives the amplifier for the effect, usually the level.");
         if (configuration.hasChanged())
         {
             configuration.save();

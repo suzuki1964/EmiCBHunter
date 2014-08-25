@@ -1,5 +1,6 @@
 package com.ksuzuki.hunter.entity;
 
+import com.ksuzuki.hunter.handler.ConfigurationHandler;
 import com.ksuzuki.hunter.init.ModItems;
 import com.ksuzuki.hunter.utility.LogHelper;
 import net.minecraft.block.Block;
@@ -252,7 +253,7 @@ public class EntityPoisonArrow extends EntityArrow implements IProjectile
                             if (!this.worldObj.isRemote)
                             {
                                 entitylivingbase.setArrowCountInEntity(entitylivingbase.getArrowCountInEntity() + 1);
-                                entitylivingbase.addPotionEffect(new PotionEffect(19, 900));
+                                entitylivingbase.addPotionEffect(new PotionEffect(ConfigurationHandler.potionValue, ConfigurationHandler.effectDuration, ConfigurationHandler.effectAmplifier));
                                 LogHelper.info("add poison");
                             }
 
