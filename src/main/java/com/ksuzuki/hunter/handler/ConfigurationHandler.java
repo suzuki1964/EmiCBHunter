@@ -15,7 +15,7 @@ public class ConfigurationHandler
 {
 
     public static Configuration configuration;
-    public static boolean testValue = false;
+    public static int potionValue = 19;
 
 
     public static void init(File configFile)
@@ -42,7 +42,7 @@ public class ConfigurationHandler
 
     private static void loadConfiguration()
     {
-        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value.");
+        potionValue = configuration.getInt("potionValue", Configuration.CATEGORY_GENERAL, 19, 1, 20, "This changes the potion effect.");
         if (configuration.hasChanged())
         {
             configuration.save();

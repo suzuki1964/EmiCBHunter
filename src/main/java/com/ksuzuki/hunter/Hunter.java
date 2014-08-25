@@ -5,6 +5,7 @@ import com.ksuzuki.hunter.init.ModBlocks;
 import com.ksuzuki.hunter.init.ModItems;
 import com.ksuzuki.hunter.proxy.IProxy;
 import com.ksuzuki.hunter.reference.Reference;
+import com.ksuzuki.hunter.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -33,6 +34,7 @@ public class Hunter
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
         ModBlocks.init();
+
     }
 
     @Mod.EventHandler

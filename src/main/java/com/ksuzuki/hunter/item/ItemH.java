@@ -35,7 +35,7 @@ public class ItemH extends Item
     public void registerIcons(IIconRegister iconRegister)
     {
         itemIcon = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
-        LogHelper.info("register item icon");
+        LogHelper.info("register item icon "+this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) );
     }
 
     protected String getUnwrappedUnlocalizedName(String unlocalizedName)
